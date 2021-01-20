@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/bg-pattern-desktop.svg");
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+span {
+    display: block;
+}
+
+img {
+    float: right;
+    /* padding: 0 0;
+    margin-top: 0; */
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 12%;
+    width: 30%;
+}
+
+.base {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 90px;
+}
+
+.beaut {
+    text-transform: uppercase;
+    color: hsl(0, 36%, 70%);
+    font-size: 60px;
+    letter-spacing: 7px;
+
+}
+
+.beaut span {
+    color: hsl(0, 6%, 24%);
+}
+
+.content {
+    color: hsl(0, 36%, 70%);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+input {
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-color: hsl(0, 36%, 70%);
+    font-family: 'Josefin Sans', sans-serif;
+}
